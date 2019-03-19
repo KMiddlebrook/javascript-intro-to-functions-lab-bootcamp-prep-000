@@ -1,4 +1,3 @@
-require "pry"
 function shout(string) {
   return string.toUpperCase()
 }
@@ -22,7 +21,6 @@ function sayHiToGrandma(string) {
   elsif; 
     console.log(string.toUpperCase())
       return "YES INDEED!"
-      binding.pry
   else;
       return "I can't hear you!"
 }
